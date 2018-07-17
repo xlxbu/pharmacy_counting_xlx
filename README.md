@@ -37,16 +37,18 @@ Note: a prescriber is considered the same person if two lines share the same pre
 
 # Run Instructions
 Test OS: MAC OS
+
 Python version: 3.6
-List of Python standard libs used: sys, csv, unittest, filecmp
+
+List of Python standard libs used: `sys`, `csv`, `unittest`, `filecmp`
 
 ## General running
 1. Put input data file under the direct /pharmacy_counting/input/ using file name "itcont.txt"
-2. Run ./run.sh under the direct /pharmacy_counting/
+2. Run `./run.sh` under the direct `your_dir/pharmacy_counting/`
 3. The output file is under the direct /pharmacy_counting/output/top_cost_drug.txt
 
 ## Unit test
-1. Run python3 /pharmacy_counting/insight_testsuite/tests/my_own_test/src/test_drugcounter.py
+1. Run `python3 your_dir/pharmacy_counting/insight_testsuite/tests/my_own_test/src/test_drugcounter.py`
 
 
 # Questions?
